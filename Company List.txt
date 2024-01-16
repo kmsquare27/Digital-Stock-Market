@@ -1,0 +1,31 @@
+Company Grameenphone Ltd.
+Industry: Telecommunications
+
+Company Beximco Pharmaceuticals Ltd.
+Industry: Pharmaceuticals
+
+Company Square Pharmaceuticals Ltd.
+Industry:  Pharmaceuticals
+
+Company BRAC Bank Ltd.
+Industry:  Banking
+
+
+Company Robi Axiata Ltd.
+Industry:  Telecommunications
+
+Company Renata Limited
+Industry: Pharmaceuticals
+
+Company Grameen Bank
+Industry: Microfinance
+
+Company IDLC Finance Ltd.
+Industry: Non-Banking Financial Institution
+
+Company Bangladesh Submarine Cable Company Limited
+Industry: Telecommunications
+
+Company Eastern Bank Ltd.
+Industry:  Banking
+
