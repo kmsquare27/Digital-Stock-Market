@@ -1,0 +1,99 @@
+Company Name: Grameenphone Ltd.
+Industry: Telecommunications
+Trading Code: GP
+Total Stock: 1,000,000,000
+Last Trading Price: 300 BDT
+Last Update Time: 10:00 AM
+Opening Price: 310 BDT
+Yesterday's Closing Price: 305 BDT
+Market Capitalization (mn): 300,000
+
+Company Name: Beximco Pharmaceuticals Ltd.
+Industry: Pharmaceuticals
+Trading Code: BEXIMCO
+Total Stock: 500,000,000
+Last Trading Price: 200 BDT
+Last Update Time: 10:15 AM
+Opening Price: 210 BDT
+Yesterday's Closing Price: 205 BDT
+Market Capitalization (mn): 100,000
+
+Company Name: Square Pharmaceuticals Ltd.
+Industry: Pharmaceuticals
+Trading Code: SQUARE
+Total Stock: 300,000,000
+Last Trading Price: 180 BDT
+Last Update Time: 10:30 AM
+Opening Price: 190 BDT
+Yesterday's Closing Price: 185 BDT
+Market Capitalization (mn): 54,000
+
+Company Name: BRAC Bank Ltd.
+Industry: Banking
+Trading Code: BRACBANK
+Total Stock: 400,000,000
+Last Trading Price: 80 BDT
+Last Update Time: 10:45 AM
+Opening Price: 85 BDT
+Yesterday's Closing Price: 82 BDT
+Market Capitalization (mn): 32,000
+
+Company Name: Robi Axiata Ltd.
+Industry: Telecommunications
+Trading Code: ROBI
+Total Stock: 800,000,000
+Last Trading Price: 150 BDT
+Last Update Time: 11:00 AM
+Opening Price: 155 BDT
+Yesterday's Closing Price: 152 BDT
+Market Capitalization (mn): 120,000
+
+Company Name: Renata Limited
+Industry: Pharmaceuticals
+Trading Code: RENATA
+Total Stock: 200,000,000
+Last Trading Price: 250 BDT
+Last Update Time: 11:15 AM
+Opening Price: 260 BDT
+Yesterday's Closing Price: 255 BDT
+Market Capitalization (mn): 50,000
+
+Company Name: Grameen Bank
+Industry: Microfinance
+Trading Code: GBBANK
+Total Stock: 100,000,000
+Last Trading Price: 50 BDT
+Last Update Time: 11:30 AM
+Opening Price: 52 BDT
+Yesterday's Closing Price: 51 BDT
+Market Capitalization (mn): 5,000
+
+Company Name: IDLC Finance Ltd.
+Industry: Financial Services
+Trading Code: IDLC
+Total Stock: 150,000,000
+Last Trading Price: 60 BDT
+Last Update Time: 11:45 AM
+Opening Price: 65 BDT
+Yesterday's Closing Price: 62 BDT
+Market Capitalization (mn): 9,000
+
+Company Name: Bangladesh Submarine Cable Company Limited
+Industry: Telecommunications
+Trading Code: BSCCL
+Total Stock: 50,000,000
+Last Trading Price: 70 BDT
+Last Update Time: 12:00 PM
+Opening Price: 75 BDT
+Yesterday's Closing Price: 72 BDT
+Market Capitalization (mn): 3,500
+
+Company Name: Eastern Bank Ltd.
+Industry: Banking
+Trading Code: EBL
+Total Stock: 300,000,000
+Last Trading Price: 70 BDT
+Last Update Time: 12:15 PM
+Opening Price: 75 BDT
+Yesterday's Closing Price: 72 BDT
+Market Capitalization (mn): 21,000
