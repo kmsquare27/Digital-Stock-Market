@@ -42,6 +42,8 @@ class SellManager:
         if confirmation == 'yes':
             portfolio_manager.remove_stocks(user, company_name, num_shares_to_sell, total_earnings)
             print(f"Successfully sold {num_shares_to_sell} stocks of {company_name}.")
+            # Update the total stock quantity in company details
+            CompanyManager.update_stock_quantity_for_sell(company_name, num_shares_to_sell)
         else:
             print("Sale canceled.")
 
