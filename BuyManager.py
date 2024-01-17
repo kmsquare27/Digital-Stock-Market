@@ -37,6 +37,8 @@ class BuyManager:
             else:
                 portfolio_manager.add_stocks(user, company_name, num_shares, total_cost)
                 print(f"Successfully bought {num_shares} stocks of {company_name}.")
+                # Update the total stock quantity in company details
+                CompanyManager.update_stock_quantity_for_buy(company_name, num_shares)
         else:
             print("Purchase canceled.")
 
