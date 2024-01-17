@@ -68,3 +68,104 @@ class CompanyManager:
 
         # Return the stock price for the given company
         return company_prices.get(company_name, 0)
+
+    # @staticmethod
+    # def update_stock_quantity_for_buy(company_name, num_stocks):
+    #     try:
+    #         with open('Company Details.txt', 'r') as file:
+    #             companies_data = file.read().split('\n\n')
+    #
+    #         for idx, company_data in enumerate(companies_data):
+    #             if company_name in company_data:
+    #                 lines = company_data.split('\n')
+    #                 total_stock_line = lines[3].split(':')
+    #                 total_stock = int(total_stock_line[1].replace(',', '').strip())
+    #
+    #                 # Update the total stock quantity
+    #                 new_total_stock = max(0, total_stock - num_stocks)
+    #                 lines[3] = f"Total Stock: {new_total_stock:,}"
+    #
+    #                 # Update the company data in the list
+    #                 companies_data[idx] = '\n'.join(lines)
+    #
+    #         # Save the updated company details back to the file
+    #         with open('Company Details.txt', 'w') as file:
+    #             file.write('\n\n'.join(companies_data))
+    #     except FileNotFoundError:
+    #         print("Error: 'Company Details.txt' file not found.")
+    #
+    #     @staticmethod
+    #     def update_stock_quantity_for_sell(company_name, num_stocks):
+    #         try:
+    #             with open('Company Details.txt', 'r') as file:
+    #                 companies_data = file.read().split('\n\n')
+    #
+    #             for idx, company_data in enumerate(companies_data):
+    #                 if company_name in company_data:
+    #                     lines = company_data.split('\n')
+    #                     total_stock_line = lines[3].split(':')
+    #                     total_stock = int(total_stock_line[1].replace(',', '').strip())
+    #
+    #                     # Update the total stock quantity
+    #                     new_total_stock = max(0, total_stock + num_stocks)
+    #                     lines[3] = f"Total Stock: {new_total_stock:,}"
+    #
+    #                     # Update the company data in the list
+    #                     companies_data[idx] = '\n'.join(lines)
+    #
+    #             # Save the updated company details back to the file
+    #             with open('Company Details.txt', 'w') as file:
+    #                 file.write('\n\n'.join(companies_data))
+    #         except FileNotFoundError:
+    #             print("Error: 'Company Details.txt' file not found.")
+    #
+
+    @staticmethod
+    def update_stock_quantity_for_buy(company_name, num_stocks):
+        try:
+            with open('Company Details.txt', 'r') as file:
+                companies_data = file.read().split('\n\n')
+
+            for idx, company_data in enumerate(companies_data):
+                if company_name in company_data:
+                    lines = company_data.split('\n')
+                    total_stock_line = lines[3].split(':')
+                    total_stock = int(total_stock_line[1].replace(',', '').strip())
+
+                    # Update the total stock quantity
+                    new_total_stock = max(0, total_stock - num_stocks)
+                    lines[3] = f"Total Stock: {new_total_stock:,}"
+
+                    # Update the company data in the list
+                    companies_data[idx] = '\n'.join(lines)
+
+            # Save the updated company details back to the file
+            with open('Company Details.txt', 'w') as file:
+                file.write('\n\n'.join(companies_data))
+        except FileNotFoundError:
+            print("Error: 'Company Details.txt' file not found.")
+
+    @staticmethod
+    def update_stock_quantity_for_sell(company_name, num_stocks):
+        try:
+            with open('Company Details.txt', 'r') as file:
+                companies_data = file.read().split('\n\n')
+
+            for idx, company_data in enumerate(companies_data):
+                if company_name in company_data:
+                    lines = company_data.split('\n')
+                    total_stock_line = lines[3].split(':')
+                    total_stock = int(total_stock_line[1].replace(',', '').strip())
+
+                    # Update the total stock quantity
+                    new_total_stock = max(0, total_stock + num_stocks)
+                    lines[3] = f"Total Stock: {new_total_stock:,}"
+
+                    # Update the company data in the list
+                    companies_data[idx] = '\n'.join(lines)
+
+            # Save the updated company details back to the file
+            with open('Company Details.txt', 'w') as file:
+                file.write('\n\n'.join(companies_data))
+        except FileNotFoundError:
+            print("Error: 'Company Details.txt' file not found.")
